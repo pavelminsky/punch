@@ -2,7 +2,7 @@
 
 /* Reset + universal */
 * {border: 0px;}
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, img, b, i, ol, ul, li, fieldset, form, input, dl, dt, dd {padding: 0; margin: 0; border: 0; font-weight: lighter; font-weight: 300; vertical-align: baseline; word-wrap: break-word;}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, img, b, i, ol, ul, li, fieldset, form, input, dl, dt, dd {padding: 0; margin: 0; border: 0; font-weight: normal; font-weight: 400; vertical-align: baseline; word-wrap: break-word;}
 ul {list-style-type: none;}
 ::selection {color: #ffffff; background: #b9b9b7;}
 ::-moz-selection {color: #ffffff; background: #b9b9b7;}
@@ -16,8 +16,8 @@ a:focus {outline: none;}
 .dim {position: absolute; width: 100%; height: 100%; overflow: hidden; background-color: #ffffff; z-index: 9999;}
 .noselect {-webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;}
 
-body {min-width: 960px; background-color: #000000; color: #d6e5ec; line-height: 14px; font-family: 'Roboto Condensed', Helvetica, sans-serif; text-transform: uppercase;}
-b, strong, h1, h2, h3, h4, h5, h6 {font-weight: normal; font-weight: 400;}
+body {min-width: 960px; background-color: #000000; color: #d6e5ec; line-height: 14px; font-family: 'Cuprum', Arial, sans-serif; text-transform: uppercase;}
+b, strong, h1, h2, h3, h4, h5, h6 {font-weight: bold; font-weight: 700;}
 i, em {font-style: normal;}
 
 
@@ -25,7 +25,16 @@ i, em {font-style: normal;}
 
 
 
+/* Gallery */
+.gallery_wrap {width: 940px; margin: 0 auto; text-align: center;}
 
+.gallery_row1, .gallery_row2, .gallery_row3, .gallery_row4 {display: inline-block; width: 210px; overflow: hidden; text-align: center; vertical-align: top; border-top: 1px solid #77a2ca; background-color: #2d668e; background-position: center top; background-repeat: no-repeat;}
+.gallery_row1 {padding: 290px 0 310px 0; margin: 0 10px 0 0; background-image: url('/images/bg_row1.jpg');}
+.gallery_row2 {padding: 130px 0 250px 0; margin: 160px 10px 0 0; background-image: url('/images/bg_row2.jpg');}
+.gallery_row3 {padding: 70px 0 210px 0; margin: 220px 10px 0 0; background-image: url('/images/bg_row3.jpg');}
+.gallery_row4 {padding: 190px 0 170px 0; margin: 100px 10px 0 0; background-image: url('/images/bg_row4.jpg');}
+
+.stills {display: inline-block; width: 190px; height: 100px; overflow: hidden; margin-bottom: 10px; border-top: 1px solid #77a2ca;}
 
 
 

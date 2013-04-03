@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head><title>&laquo;Гостья&raquo; &bull; От автора саги &laquo;Сумерки&raquo; &bull; В кино с 28 марта</title>
+<head><title>Ридли Скотт представляет — &laquo;Добро пожаловать в капкан&raquo; — В кино с 18 апреля</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,7 +31,7 @@
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="/css/fancybox.css?v=2.1.1" media="screen">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cuprum:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="/js/init.js"></script>
 <script>
 jQuery(function($) {
@@ -39,13 +39,30 @@ $('.dim').fadeOut(500);
 });
 </script>
 
+<!-- Gallery hover animation -->
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.stills').hover(function() {$(this).stop().animate({opacity:0.7, width:210},200);}, function() {$(this).stop().animate({opacity:1, width:190},100);});
+});
+</script>
+
 <link href="/css/video-js.css" rel="stylesheet">
 <script type="text/javascript" src="/js/video.js"></script>
 <style type="text/css">
-.vjs-default-skin .vjs-play-progress {background: #969696;}
-.vjs-default-skin .vjs-load-progress {background: #5a5a5a;}
+.vjs-default-skin .vjs-play-progress {background: #83a5ba; height: 5px !important;}
+.vjs-default-skin .vjs-load-progress {background: #456579; height: 5px !important;}
+.vjs-default-skin .vjs-seek-handle {height: 5px !important;}
+.vjs-load_progress, .vjs-play-progress {border-radius: 0 !important; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important;}
 .vjs-default-skin .vjs-seek-handle {display: none;}
-.vjs-default-skin .vjs-current-time-display, .vjs-default-skin .vjs-remaining-time-display {font: normal 10px Arial; color: #6f7374; text-shadow: none;}
+.vjs-volume-control, .vjs-fullscreen-control, .vjs-remaining-time-display, .vjs-current-time-display, .vjs-default-skin .vjs-time-controls {display: none;}
+.vjs-play-control {position: relative !important; bottom: 23px !important; left: 0px !important;}
+.vjs-mute-control {position: relative !important; bottom: 23px !important; right: 8px !important;}
+.vjs-controls {background: transparent !important; border: none !important;}
+.vjs-progress-control {height: 5px !important; border: none !important; background: transparent !important;}
+.vjs-default-skin .vjs-progress-holder .vjs-load-progress {border-radius: 0 !important; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important;}
+.vjs-default-skin .vjs-progress-holder {height: 5px !important; border-radius: 0 !important; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important; background: transparent !important;}
+.vjs-default-skin .vjs-big-play-button {z-index: 2; position: absolute; top: 50%; left: 50%; width: 60px; height: 60px; margin: -30px 0 0 -30px; text-align: center; vertical-align: center; cursor: pointer !important; border: 1px solid #dbeaf2; opacity: 0.95; background: #000000; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important;}
+.vjs-default-skin div.vjs-big-play-button:hover {border: 1px solid #ffa227; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important;}
 </style>
 
 
@@ -79,7 +96,6 @@ a:hover {color: #ea8600;}
 #counters:hover {bottom: 0;}
 
 .gallery {margin: 0 auto; width: 880px;}
-a.stills:hover {opacity: 0.80; -moz-opacity: 0.80; -khtml-opacity: 0.80; filter: alpha(opacity=80);}
 
 .copy {width: 880px; margin: 0 auto; padding: 80px 10px 40px 10px; font-size: 0.8em; color: #718893; text-align: center;}
 </style>
@@ -107,11 +123,32 @@ a.stills:hover {opacity: 0.80; -moz-opacity: 0.80; -khtml-opacity: 0.80; filter:
 	</div>
 </div>
 
-<div id="counters"><div class="counters_list"><?php include ("counters_include.php"); ?></div></div>
+<div id="counters"><div class="counters_list"><?php //include ("counters_include.php"); ?></div></div>
 
-<div class="footer noselect">
-	<div class="gallery"><p><a class="stills" data-fancybox-group="gallery_stills" href="/media/01.jpg"><img src="/media/01s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/02.jpg"><img src="/media/02s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/03.jpg"><img src="/media/03s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/04.jpg"><img src="/media/04s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/05.jpg"><img src="/media/05s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/06.jpg"><img src="/media/06s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/07.jpg"><img src="/media/07s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/08.jpg"><img src="/media/08s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/09.jpg"><img src="/media/09s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/10.jpg"><img src="/media/10s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/11.jpg"><img src="/media/11s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/12.jpg"><img src="/media/12s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/13.jpg"><img src="/media/13s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/14.jpg"><img src="/media/14s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/15.jpg"><img src="/media/15s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/16.jpg"><img src="/media/16s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/17.jpg"><img src="/media/17s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/18.jpg"><img src="/media/18s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/19.jpg"><img src="/media/19s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/20.jpg"><img src="/media/20s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/21.jpg"><img src="/media/21s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/22.jpg"><img src="/media/22s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/23.jpg"><img src="/media/23s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/24.jpg"><img src="/media/24s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/25.jpg"><img src="/media/25s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/26.jpg"><img src="/media/26s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/27.jpg"><img src="/media/27s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/28.jpg"><img src="/media/28s.jpg" alt=""></a></p></div>
+
+
+
+
+
+
+<style type="text/css">
+
+
+
+
+</style>
+
+
+<div class="gallery_wrap">
+	<div class="gallery_row1"><a class="stills" data-fancybox-group="gallery_stills" href="/media/01.jpg"><img src="/media/01s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/02.jpg"><img src="/media/02s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/03.jpg"><img src="/media/03s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/04.jpg"><img src="/media/04s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/05.jpg"><img src="/media/05s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/06.jpg"><img src="/media/06s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/07.jpg"><img src="/media/07s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/08.jpg"><img src="/media/08s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/09.jpg"><img src="/media/09s.jpg" alt=""></a></div>
+	<div class="gallery_row2"><a class="stills" data-fancybox-group="gallery_stills" href="/media/10.jpg"><img src="/media/10s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/11.jpg"><img src="/media/11s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/12.jpg"><img src="/media/12s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/13.jpg"><img src="/media/13s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/14.jpg"><img src="/media/14s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/15.jpg"><img src="/media/15s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/16.jpg"><img src="/media/16s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/17.jpg"><img src="/media/17s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/18.jpg"><img src="/media/18s.jpg" alt=""></a></div>
+	<div class="gallery_row3"><a class="stills" data-fancybox-group="gallery_stills" href="/media/19.jpg"><img src="/media/19s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/20.jpg"><img src="/media/20s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/21.jpg"><img src="/media/21s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/22.jpg"><img src="/media/22s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/23.jpg"><img src="/media/23s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/24.jpg"><img src="/media/24s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/25.jpg"><img src="/media/25s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/26.jpg"><img src="/media/26s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/27.jpg"><img src="/media/27s.jpg" alt=""></a></div>
+	<div class="gallery_row4"><a class="stills" data-fancybox-group="gallery_stills" href="/media/28.jpg"><img src="/media/28s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/29.jpg"><img src="/media/29s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/30.jpg"><img src="/media/30s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/31.jpg"><img src="/media/31s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/32.jpg"><img src="/media/32s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/33.jpg"><img src="/media/33s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/34.jpg"><img src="/media/34s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/35.jpg"><img src="/media/35s.jpg" alt=""></a><a class="stills" data-fancybox-group="gallery_stills" href="/media/36.jpg"><img src="/media/36s.jpg" alt=""></a></div>
 </div>
+
+
+
+
 
 <div class="copy">&copy; 2013 &laquo;<a href="http://www.westvideo.ru">Вест Видео</a>&raquo;. Создание сайта: <a href="http://www.kg-design.ru/">КГ-Дизайн</a></div>
 
@@ -124,8 +161,8 @@ a.stills:hover {opacity: 0.80; -moz-opacity: 0.80; -khtml-opacity: 0.80; filter:
 <script type="text/javascript">
 $(document).ready(function() {
 $('.stills').fancybox({
-//prevEffect : 'none',
-//nextEffect : 'none',
+prevEffect : 'none',
+nextEffect : 'none',
 //closeBtn  : false,
 //arrows    : false,
 nextClick : false,
