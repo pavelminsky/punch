@@ -1,0 +1,4 @@
+RewriteEngine on
+
+DirectoryIndex index.php
+ErrorDocument 404 http://www.kapkanfilm.ru/404/
