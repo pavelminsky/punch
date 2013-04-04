@@ -8,7 +8,7 @@
 <meta name="keywords" content="Добро пожаловать в капкан, Welcome to the Punch, Ридли Скотт, боевик, триллер, криминал, фильм, Джеймс МакЭвой, Марк Стронг, Андреа Райзборо">
 
 <meta property="og:title" content="Добро пожаловать в капкан — официальный сайт фильма">
-<meta property="og:description" content="Заклятые враги — полицейский детектив (МакЭвой) и бывший преступник (Стронг) - объединяют усилия ради борьбы с криминальным заговором">
+<meta property="og:description" content="Заклятые враги - полицейский детектив (МакЭвой) и бывший преступник (Стронг) - объединяют усилия ради борьбы с криминальным заговором">
 <meta property="og:type" content="movie">
 <meta property="og:url" content="http://www.kapkanfilm.ru">
 <meta property="og:image" content="http://www.kapkanfilm.ru/images/share.jpg">
@@ -25,7 +25,7 @@
 <link rel="shortcut icon" href="favicon.png">
 
 <meta itemprop="name" content="Добро пожаловать в капкан — официальный сайт фильма">
-<meta itemprop="description" content="Заклятые враги — полицейский детектив (МакЭвой) и бывший преступник (Стронг) - объединяют усилия ради борьбы с криминальным заговором">
+<meta itemprop="description" content="Заклятые враги - полицейский детектив (МакЭвой) и бывший преступник (Стронг) - объединяют усилия ради борьбы с криминальным заговором">
 <meta itemprop="image" content="http://www.kapkanfilm.ru/images/share.jpg">
 
 <link rel="stylesheet" href="/css/main.css">
